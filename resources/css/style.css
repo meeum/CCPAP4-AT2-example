@@ -1,4 +1,5 @@
 @import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@400;700&display=swap');
 
 /* -------------------- GLOBAL DEFAULTS */
 
@@ -6,10 +7,16 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #ffe66b;
-}
 
+body {
+    background-color: #6b84ff;
+    color: #444;
+    font-size: 20px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    line-height: 1.4;
+}
 
 img,
 iframe,
@@ -17,23 +24,58 @@ video {
     max-width: 100%;
 }
 
+a {
+    color: #000;
+}
 
-
+a:hover {
+    text-decoration: none;
+}
 
 /* -------------------- HEADINGS AND TYPE */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    color: #222;
+}
 
+h1 {
+    font-size: 60px;
+}
 
+h2 {
+    font-size: 48px;
+}
 
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 22px;
+}
 
 /* -------------------- LAYOUTS */
 
 .layout-wide {
-    
+    background-color: #ffe66b;
+
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
+    padding: 3%;
     
 }
+
 
 /* -------------------- HEADER */
 
