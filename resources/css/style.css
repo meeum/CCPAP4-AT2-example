@@ -26,6 +26,7 @@ video {
 
 a {
     color: #000;
+    
 }
 
 a:hover {
@@ -39,7 +40,7 @@ h3,
 h4,
 h5 {
     font-family: 'Alfa Slab One', cursive;
-    font-weight: 100;
+    font-weight: normal;
     color: #222;
 }
 
